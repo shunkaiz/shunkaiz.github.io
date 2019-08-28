@@ -869,13 +869,15 @@ blockquote {
     position: absolute;
     top: 250px;
     right: 0;
+    cursor: pointer;
   }
 
   .post-item .collapse-button {
     position: absolute;
     visibility: hidden;
     bottom: : 20px;
-    right: 0;    
+    right: 0;   
+    cursor: pointer; 
   }
 
   .post-item .screenshot-container {
