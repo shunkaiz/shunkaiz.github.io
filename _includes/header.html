@@ -1,0 +1,10 @@
+<header class="header">
+  <h1 class="logo">
+    <a href="{{site.baseurl}}/"  class="{% if page.layout =='home' %}logo-link{% endif %}">{% if site.name %}{{site.name}}{% else %}Shunkai Zhang{% endif %}</a>
+  </h1>
+  <nav class="main-menu">
+    <ul>
+      <li><a href="{{site.baseurl}}/projects/" class="{% if page.title == 'Projects' %}logo-link {% endif%}">Projects</a></li>
+    </ul>
+  </nav>
+</header>

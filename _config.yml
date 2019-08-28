@@ -1,0 +1,56 @@
+title: Shunkai Zhang
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: light # Or use dark
+
+# Profile information
+name: Shunkai Zhang
+tagline: Future Software Engineer
+about-description: Greetings! I am a CS student at University of Southern California pursuing a B.E. degree. 
+  Since college, I have been interested in providing efficient software solutions for courses, online communities and companies. 
+  Now my expertise lies in multiple fields including web application, backend optimization and project testing. 
+
+# Add Discription
+pic: shunkai.jpeg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+
+# Contact links
+email: shunkaiz1997@gmail.com # Add your Email address
+phone: (213) 519-1523 # Add your Phone number
+website: shunkai.me # Add your website, do not add http://
+linkedin: shunkai-zhang-51329b124/ # Add your Linkedin handle
+github: shunkaiz # Add your Github handle
+facebook: 'shunkai.zhang.7' # Add your Twitter handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]
